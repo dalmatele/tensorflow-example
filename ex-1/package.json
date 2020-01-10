@@ -1,0 +1,23 @@
+{
+    "name": "tfjs",
+    "version": "0.2.0",
+    "scripts": {
+        "start-client": "webpack && webpack-dev-server",
+        "start-server": "node server.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@tensorflow/tfjs": "^1.5.1",
+        "@tensorflow/tfjs-core": "^1.5.1",
+        "@tensorflow/tfjs-node": "^1.5.1",
+        "argparse": "^1.0.10",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "clang-format": "~1.2.3",
+        "mkdirp": "~0.5.1",
+        "webpack": "~4.28.4",
+        "webpack-cli": "^3.3.2",
+        "webpack-dev-server": "~3.4.1"
+    }
+}
